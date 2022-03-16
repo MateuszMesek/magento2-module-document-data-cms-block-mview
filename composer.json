@@ -1,0 +1,22 @@
+{
+    "name": "mateuszmesek-magento2/module-document-data-cms-block-mview",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-cms": "*",
+        "mateuszmesek-magento2/module-document-data-cms-block-indexer": "*",
+        "mateuszmesek-magento2/module-document-data-indexer-mview": "*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MateuszMesek\\DocumentDataCmsBlockMview\\": "src"
+        }
+    }
+}
