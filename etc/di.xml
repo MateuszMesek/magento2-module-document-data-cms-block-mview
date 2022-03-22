@@ -20,4 +20,17 @@
             <argument name="documentName" xsi:type="string">cms_block</argument>
         </arguments>
     </virtualType>
+
+    <virtualType name="MateuszMesek\DocumentDataCmsBlockMview\Action" type="MateuszMesek\DocumentDataIndexerMview\Action">
+        <arguments>
+            <argument name="getChangelogList" xsi:type="object">MateuszMesek\DocumentDataCmsBlockMview\Command\GetChangelogList</argument>
+            <argument name="dimensionalIndexer" xsi:type="object">MateuszMesek\DocumentDataIndexer\DimensionalIndexer</argument>
+            <argument name="documentName" xsi:type="string">cms_block</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="MateuszMesek\DocumentDataCmsBlockMview\Command\GetChangelogList" type="MateuszMesek\DocumentDataIndexerMview\Command\GetChangelogList">
+        <arguments>
+            <argument name="documentName" xsi:type="string">cms_block</argument>
+        </arguments>
+    </virtualType>
 </config>
