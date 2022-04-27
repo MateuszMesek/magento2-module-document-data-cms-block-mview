@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataCmsBlockMview\NodeSubscription;
+namespace MateuszMesek\DocumentDataCmsBlockMview\SubscriptionProvider;
 
 use InvalidArgumentException;
 use Magento\Cms\Api\Data\BlockInterface;
 use Magento\Framework\DB\Ddl\Trigger;
 use Magento\Framework\EntityManager\MetadataPool;
-use MateuszMesek\DocumentDataIndexerMview\Data\SubscriptionFactory;
+use MateuszMesek\DocumentDataIndexMview\Data\SubscriptionFactory;
 use Traversable;
 
-class SubscriptionGenerator
+class Generator
 {
     private MetadataPool $metadataPool;
     private SubscriptionFactory $subscriptionFactory;
