@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataCmsBlockMview\Model\SubscriptionProvider;
+namespace MateuszMesek\DocumentDataCmsBlockMview\Model\SubscriptionProvider\General;
 
 use InvalidArgumentException;
 use Magento\Cms\Api\Data\BlockInterface;
